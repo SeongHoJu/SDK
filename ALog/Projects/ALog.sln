@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALog", "ALog.vcproj", "{17221A87-ABAA-4184-8592-9C91C765B29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17221A87-ABAA-4184-8592-9C91C765B29A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17221A87-ABAA-4184-8592-9C91C765B29A}.Debug|Win32.Build.0 = Debug|Win32
+		{17221A87-ABAA-4184-8592-9C91C765B29A}.Release|Win32.ActiveCfg = Release|Win32
+		{17221A87-ABAA-4184-8592-9C91C765B29A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
