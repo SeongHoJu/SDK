@@ -1,5 +1,6 @@
 #include "stdio.h"
 
+
 #include "AInput.h"
 
 DirectInputData::DirectInputData()
@@ -57,6 +58,8 @@ BOOL	DirectInputSystem::InitDirectInputSystem( HINSTANCE hInst, HWND hWnd )
 
 	CleanInputBuffer();
 	SetScreenRectInfo( hWnd );
+
+	return TRUE;
 }
 
 VOID	DirectInputSystem::ReleaseDirectInputSystem()

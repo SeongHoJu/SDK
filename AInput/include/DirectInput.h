@@ -6,17 +6,10 @@
 #pragma comment(lib, "dinput8.lib")
 #pragma comment(lib, "dxguid.lib")
 
-enum EMouseBtn
-{
-	EMouseBtn_Left,
-	EMouseBtn_Right,
-	EMouseBtn_Wheel,
-
-	EMouseBtn_Max
-};
-
 #define KEYSTATE_BUFFERSIZE 256
 #define DEVICELOST_CHECKLIMITCOUNT	1000
+
+#include "AVirtualActionKey.h"
 
 
 struct DirectInputData

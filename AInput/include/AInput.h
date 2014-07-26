@@ -5,8 +5,8 @@
 
 class AInput
 {
-
-
+	
+	
 
 
 };
